@@ -201,3 +201,72 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2021-11-18 10:07:11.151  INFO 4548 --- [nio-3002-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-11-18 10:07:11.151  INFO 4548 --- [nio-3002-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-11-18 10:07:11.161  INFO 4548 --- [nio-3002-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2022-02-24 06:45:21.037  INFO 29848 --- [           main] c.c.training.TraningApplication          : Starting TraningApplication v1.0-SNAPSHOT on fabmedical-czj with PID 29848 (/home/adminfabmedical/MCW-Cloud-native-applications-pim/Fabmedical/content-init/target/training-init-1.0-SNAPSHOT.jar started by adminfabmedical in /home/adminfabmedical/MCW-Cloud-native-applications-pim/Fabmedical/content-init)
+2022-02-24 06:45:21.041  INFO 29848 --- [           main] c.c.training.TraningApplication          : No active profile set, falling back to default profiles: default
+2022-02-24 06:45:22.192  INFO 29848 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3002 (http)
+2022-02-24 06:45:22.202  INFO 29848 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-24 06:45:22.203  INFO 29848 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-02-24 06:45:22.250  INFO 29848 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-24 06:45:22.251  INFO 29848 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1154 ms
+2022-02-24 06:45:22.407  INFO 29848 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-24 06:45:22.551  INFO 29848 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.3.1 
+2022-02-24 06:45:23.263  INFO 29848 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-24 06:45:23.426  INFO 29848 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3002 (http) with context path ''
+2022-02-24 06:45:23.428  INFO 29848 --- [           main] c.c.training.TraningApplication          : Started TraningApplication in 2.953 seconds (JVM running for 3.33)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2022-02-24 06:46:19.306  INFO 29909 --- [           main] c.c.training.TraningApplication          : Starting TraningApplication v1.0-SNAPSHOT on fabmedical-czj with PID 29909 (/home/adminfabmedical/MCW-Cloud-native-applications-pim/Fabmedical/content-init/target/training-init-1.0-SNAPSHOT.jar started by adminfabmedical in /home/adminfabmedical/MCW-Cloud-native-applications-pim/Fabmedical/content-init)
+2022-02-24 06:46:19.309  INFO 29909 --- [           main] c.c.training.TraningApplication          : No active profile set, falling back to default profiles: default
+2022-02-24 06:46:20.607  INFO 29909 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3002 (http)
+2022-02-24 06:46:20.620  INFO 29909 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-24 06:46:20.621  INFO 29909 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-02-24 06:46:20.673  INFO 29909 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-24 06:46:20.674  INFO 29909 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1309 ms
+2022-02-24 06:46:20.846  INFO 29909 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-24 06:46:21.029  INFO 29909 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.3.1 
+2022-02-24 06:46:21.918  INFO 29909 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-24 06:46:22.106  INFO 29909 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-24 06:46:22.112  INFO 29909 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-24 06:46:22.113 ERROR 29909 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3002 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3002 or configure this application to listen on another port.
+
+2022-02-24 06:46:22.115  INFO 29909 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-24 06:46:22.116  INFO 29909 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-24 06:46:22.123  INFO 29909 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
